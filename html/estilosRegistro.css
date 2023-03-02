@@ -2,14 +2,14 @@
     --colorTextos: #1e123767;
 }
 *.::before.::after{
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     box-sizing: border-box;
 }
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100%;
-    height: auto;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ form{
     box-shadow: 0 0 6px 0 rgba(101, 107, 189, 0.8);
     border-radius: 10px;
     height: auto;
-    width: 30vw;
+    width: 50vh;
 }
 .form{
     width: 100%;
