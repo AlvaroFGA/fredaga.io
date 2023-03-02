@@ -24,6 +24,8 @@ h1{
     font-weight: 700;
 }
 form{
+    overflow: hidden;
+        margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -32,8 +34,8 @@ form{
     padding: 40px 0;
     box-shadow: 0 0 6px 0 rgba(101, 107, 189, 0.8);
     border-radius: 10px;
-    height: 70vh;
-    width: auto;
+    height: auto;
+    width: 30vw;
 }
 .form{
     width: 100%;
@@ -104,21 +106,15 @@ button{
     text-align: center;
     color: #0e1c60;
 }
+@media screen and (max-width: 800px){
+    form{
+        width: 65%;
+        
+    }
+}
 @media screen and (max-width: 500px){
     form{
-        width: 80vh;
-    }
-    body{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        width: 100hv;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-image: linear-gradient(to top, rgba(35, 40, 158, 0.486) 0%, hsla(218, 71%, 69%, 0.514) 100%), url(fondoReg.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        width: 80%;
         
     }
 }
