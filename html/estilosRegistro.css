@@ -99,7 +99,7 @@ button{
     color: #0e1c60;
 }
 @media screen and (max-width:500px){
-    form{
+    .form{
         width: 80%;
     }
 }
