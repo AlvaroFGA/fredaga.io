@@ -115,7 +115,9 @@ button{
 @media screen and (max-width: 500px){
     form{
         width: 80%;
-        
     }
-     
+     body{
+        background-repeat: repeat;
+        width: 90%;
+    }
 }
