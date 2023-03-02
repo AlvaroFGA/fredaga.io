@@ -117,4 +117,9 @@ button{
         width: 80%;
         
     }
+     body{
+        background-repeat: repeat;
+        width: 100%;
+        height: auto;
+    }
 }
