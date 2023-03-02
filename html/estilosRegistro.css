@@ -105,11 +105,9 @@ button{
 }
 @media screen and (max-width:500px){
     form{
-        height: 70vh;
-        background-color: #ffff;
-        padding: 40px 0;
-        box-shadow: 0 0 6px 0 rgba(101, 107, 189, 0.8);
-        border-radius: 10px;
-        width: 90vh;
+        height: 90vh;
+    }
+    body{
+        
     }
 }
